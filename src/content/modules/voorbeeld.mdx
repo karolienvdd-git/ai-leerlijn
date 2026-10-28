@@ -92,6 +92,80 @@ dan terug naar de eerste stap, en alles wat je in deze module invulde, wordt
 gewist.
 </Stap>
 
+<Stap titel="Kies je route">
+Hier splitst de module zich. Na je keuze zie je alleen de stappen voor jouw
+route; daarna komen beide routes weer samen. Wil je later wisselen? Kom dan
+terug naar deze stap en kies opnieuw.
+
+<Keuze naam="doel" vertakt vraag="Waaraan wil je vandaag werken?" opties={{ toets: 'Een schriftelijke toets', mondeling: 'Een mondeling examen' }} />
+</Stap>
+
+<Stap titel="Een toets voorbereiden met een chatbot" tak="toets">
+Een chatbot kan je overhoren. Vraag hem om je vragen te stellen, één voor
+één, en pas daarna te zeggen wat juist was.
+
+Zo oefen je zelf, in plaats van alleen antwoorden te lezen.
+</Stap>
+
+<Stap titel="Jouw eerste vraag" tak="toets">
+<Reflectie id="toets-overhoren" vraag="Voor welke toets zou jij je zo laten overhoren, en waarom?" />
+</Stap>
+
+<Stap titel="Een mondeling examen voorbereiden met een chatbot" tak="mondeling">
+Een chatbot kan de examinator spelen. Vraag hem om je vragen te stellen
+zoals op een mondeling examen, en om na je antwoord te zeggen wat duidelijker
+kan.
+
+Zeg je antwoorden luidop voor je ze typt: op het examen moet je ze ook
+zeggen.
+</Stap>
+
+<Stap titel="Kies je tool">
+Vanaf nu zie je alleen de handelingen voor de tool die je kiest. Wil je later
+wisselen? Kom dan terug naar deze stap en kies opnieuw.
+
+<Keuze naam="tool" vraag="Met welke tool werk je vandaag?" opties={{ chatgpt: 'ChatGPT', gemini: 'Gemini', notebook: 'Gemini Notebook', copilot: 'Copilot (schoolaccount)' }} />
+</Stap>
+
+<Stap titel="Open je tool">
+Open je tool en start een nieuw gesprek.
+
+<Tool naam="chatgpt">Ga naar [chatgpt.com](https://chatgpt.com) en klik op **Nieuwe chat**. Typ als eerste bericht: `Help me leren voor mijn toets.`</Tool>
+
+<Tool naam="gemini">Ga naar [gemini.google.com](https://gemini.google.com) en klik op **Nieuwe chat**.</Tool>
+
+<Tool naam="notebook">Maak op [notebooklm.google.com](https://notebooklm.google.com) een **nieuw notebook**. Voeg je cursus toe als bron.</Tool>
+
+<Tool naam="copilot">Ga naar [m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) en meld je aan met je **schoolaccount**.</Tool>
+</Stap>
+
+<Stap titel="Kopieer je eerste prompt">
+Klik op **Kopieer** en plak de prompt in je tool. Vervang daar wat tussen
+haken staat door je eigen gegevens, en verstuur dan.
+
+<Prompt>
+Ik zit in het [jaar en richting]. Op [datum] heb ik een schriftelijke toets
+[vak] over [onderwerp].
+
+Stel me vijf vragen, één per keer. Wacht telkens op mijn antwoord en zeg dan
+wat juist was en wat beter kan.
+</Prompt>
+</Stap>
+
+<Stap titel="Wat ging hier mis?">
+<Chat naast>
+<Jij>Leg fotosynthese uit.</Jij>
+<AI>Fotosynthese is het proces waarbij planten met zonlicht water en koolstofdioxide omzetten in suiker en zuurstof.</AI>
+</Chat>
+
+<Meerkeuze id="chat-context" vraag="Wat had de leerling beter gedaan?">
+  <Optie juist feedback="De AI weet niet in welk jaar je zit of waarvoor je het nodig hebt.">Meer context geven</Optie>
+  <Optie feedback="Beleefd mag, maar het antwoord wordt er niet beter van.">Beleefder vragen</Optie>
+  <Optie feedback="De vraag is al kort; er ontbreekt juist informatie.">Korter vragen</Optie>
+  <Optie feedback="Het antwoord klopt, maar past het bij jouw toets?">Niets, het is goed</Optie>
+</Meerkeuze>
+</Stap>
+
 <Stap titel="Klaar! Kopieer wat je schreef">
 <Samenvatting />
 </Stap>
