@@ -45,3 +45,9 @@
 .vibe[data-pane=voorbeeld] p {font-size:var(--text-small-size);line-height:var(--text-small-line);margin-bottom:var(--space-2)}
 .vibe[data-pane=voorbeeld] .v-demo {padding:var(--space-3);margin:var(--space-2) 0}
 .vibe .v-phase {margin-bottom:var(--space-2)}
+.vibe[data-pane=overleg] .v-prompt {max-height:80px}
+.vibe[data-pane=voorbeeld] .v-demo {padding:var(--space-2)}
+.vibe[data-pane=voorbeeld] .v-demo h3 {font-size:var(--text-body-size);line-height:var(--text-body-line);margin-bottom:var(--space-1)}
+.vibe[data-pane=voorbeeld] .v-demo .v-options {margin-bottom:var(--space-1)}
+.vibe[data-pane=voorbeeld] .v-demo p {margin-bottom:var(--space-1)}
+.vibe[data-pane=voorbeeld] details {padding:var(--space-2)}
