@@ -29,3 +29,19 @@
 .vibe[data-pane=verbeteren] h3 {font-size:var(--text-body-size);margin:var(--space-2) 0}
 .vibe[data-pane=verbeteren] ul {margin-bottom:var(--space-2)}
 .vibe select {font:inherit;color:var(--ink);background:var(--surface);padding:var(--space-1);border:1px solid var(--line-strong);border-radius:var(--radius-sm)}
+.v-intro section {padding:var(--space-3);border:1px solid var(--line);border-radius:var(--radius-md);background:var(--surface-sunken)}
+.v-intro h3 {font-size:var(--text-body-size);line-height:var(--text-body-line);margin:0 0 var(--space-1)}
+.v-intro p {font-size:var(--text-small-size);line-height:var(--text-small-line);margin:0}
+.v-demo {border:2px solid var(--ai);border-radius:var(--radius-lg);background:var(--ai-soft);padding:var(--space-4);margin:var(--space-3) 0;color:var(--ai-text)}
+.v-demo h3 {margin:var(--space-1) 0 var(--space-2);color:var(--ai-text)}
+.v-demo-label {font-size:var(--text-label-size);font-weight:700;letter-spacing:var(--text-label-tracking)}
+.v-demo button {background:var(--surface)}
+.vibe[data-pane=pakket] .v-material {max-height:125px}
+.vibe[data-pane=overleg] .v-prompt {max-height:125px}
+.vibe[data-pane=situatie] details p {font-size:var(--text-small-size);line-height:var(--text-small-line)}
+.v-phase {font-size:var(--text-label-size);line-height:var(--text-label-line);color:var(--ink-muted);margin-bottom:var(--space-2)}
+.vibe[data-pane=overleg] > p {font-size:var(--text-small-size);line-height:var(--text-small-line)}
+.vibe[data-pane=overleg] .v-prompt {max-height:100px}
+.vibe[data-pane=voorbeeld] p {font-size:var(--text-small-size);line-height:var(--text-small-line);margin-bottom:var(--space-2)}
+.vibe[data-pane=voorbeeld] .v-demo {padding:var(--space-3);margin:var(--space-2) 0}
+.vibe .v-phase {margin-bottom:var(--space-2)}
