@@ -56,3 +56,15 @@ ook beschikbaar om te kopiëren (toegankelijk alternatief). HTML is een apart be
 Gevorderd: publiceren, databanken/accounts, diepere kwaliteitscontrole,
 beveiliging, technische schuld. De Claude-instructies zijn niet geconverteerd.
 Geen pull request of merge naar de gezamenlijke website zonder opdracht.
+
+
+## Herwerking na leerlinggerichte review
+
+De praktische start toont alle kaarten direct. Eerst een open eigen idee, daarna
+optionele voorbeelden; een expliciet stappenoverzicht vervangt de oude losse
+herkenningsvraag. Het spectrum opent bij binnenkomen steeds op het eerste voorbeeld.
+Faselabels geven aan wat de leerling doet en waarom. De mini-quiz is een zichtbaar
+apart oefenvoorbeeld. Eigen lesbestanden (PDF, PPT, Excel) gaan naar de AI-tool;
+in het leerpad komt alleen een beschrijving van de gekozen leerstof. Canva Code
+heeft eigen instructies voor bouwen en testen zonder HTML-download. PDF blijft
+het verslag voor alle routes. De bestaande velden blijven behouden bij bijwerken.
